@@ -1,0 +1,167 @@
+/* Estilizando site */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Configura a pagina para o parallax */
+body ,html {
+  font-family:"trebuchet MS", Helvetica, sans-serif;
+  background: #004aad;
+  height: 100%;
+}
+
+h6{
+  font-family: sans-serif 'trebuchet MS', 'Helvetica';
+  width: 220px;
+  color: red;
+  margin: -3px 1px 0 7px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+#head-default{
+  max-width: 100%;
+  height: 27%;
+  margin: 0%;
+  /* overflow:auto; esconde o conteúdo que ultrapassa o elemento */
+  background: #fff url(../imagens/Banner2.png) no-repeat right;
+  border: 1px solid white; 
+  
+}
+
+
+#areaLogo {
+  width: 18.2%;
+  height: 100%;
+  margin: 1px 1px 1px 1px;
+  float:left;
+  border: 1px solid red;  
+}
+
+.logo {
+  width: 56%;
+  height: 31%;
+  margin: 20% auto 0 auto;
+  background: url(../imagens/Logo3.png) no-repeat center;
+  /* border: 1px solid blue;   */
+}
+
+/* INICIO MENU */
+/*Formatação da Li para Colocar menu na horizontal*/
+#navegacao {
+width: auto;
+height: auto;
+border: 1px solid red;
+  
+}
+
+ul  {
+/* border: 1px solid black; */
+margin: 10.8% 0 0 1%;
+padding: 0;
+list-style: none;
+width: 45%;
+background: #159cb0 url(../imagens/menu/fundo-horizontal.png) repeat-x;
+float: left; /* Tem que futual tambem junto com as Li para ter a visualização do fundo*/
+}
+
+/*Formatação da Li para Colocar menu na horizontal*/
+ul li {
+ 
+  float: left;
+}
+
+/*Formatação dos Links*/
+ul a {
+  display: block;
+  padding: 0 2em ;
+  line-height: 2em;
+  text-decoration: none;
+  color:#ffff;
+  background: url(../imagens/menu/divisor.png) repeat-y;
+}
+
+ul .undivisor a {
+  background: none;
+}
+
+ul a:hover{
+  color: #004aad;
+  background: #44cade;
+}
+
+#home #navegacao .home a,
+#historira #navegacao.historia a,
+#galeria #navegacao .galeria a,
+#clientes #navegacao .clientes a,
+#contato #navegacao .contato a{
+  color: #004aad;
+  background: #44cade;
+}
+
+/* Inicio parallax */
+.conteudo {
+  color: #fff;
+  text-align: justify;
+  padding: 5% 5%;
+  height: 100%;
+  
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+/* Efeito Parallax
+-------------------------------*/
+.caixa1, .caixa2, .caixa3, .caixa4 {
+  position:relative;
+  height: 100%;
+  opacity: 0.7; /*deixa a imagem opaca*/
+  background-repeat: no-repeat;
+  background-size: cover; /* faz a imagem cobrir todo o espaço*/
+  background-position: center; /* centraliza a imagem*/
+  background-attachment: fixed; /* mantem imagem fixa*/
+  border: 1px solid red;
+}
+
+.caixa1 {
+  background-image: url(../images/parallax/baloes.jpg);
+}
+
+.caixa2 {
+  background-image: url(../imagens/Parallax/estrada.jpg);
+}
+
+.caixa3 {
+  background-image: url(../imagens/parallax/nacer-do-sol.jpg);
+}
+
+.caixa4 {
+  background-image: url(../imagens/parallax/praia.jpg);
+}
+/* Inicio centralização de conteúdo */
+.conteudo-titulo {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5;
+  text-transform: uppercase;
+}
+/* Fim centralização de conteúdo */
