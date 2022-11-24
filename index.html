@@ -1,28 +1,360 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
 
-    <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
-    <title>Home Jf Manutençã<object data="" type="text"></object></title>
+    <title>Mariana Arias | Desarrolladora Web Front-End</title>
 
-    <div id="head-default">
-      <div id="areaLogo">
-        <h1 class="logo">
-          <h6>JF Manutenção de Máquinas Indústriais Ltda EPP</h6>
-        </h1>
-      </div>
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-      <ul id="navegacao">
-        <li class="undivisor"><a href="index.html">Home</a></li>
-        <li><a href="historia.html">História</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="clientes.html">Clientes</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
     </div>
-  </head>
-  <body></body>
+
+    <header class="header">
+        <a href="#home" class="logo">MARIANA</a>
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#historia">Sobre nós</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#formacion">Formación</a>
+            <a href="#proyectos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/Logo1.png" alt="Group of engeniers">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1">Bem vindo ao nosso site!</p>
+                    <p class="home_text-2">JF Manutenções</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type">Aceitando desafios,</p>
+                    <p class="home_text-3 text-type">Buscando soluções,</p>
+                    <p class="home_text-3 text-type">Superando metas. </p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p>Auxiliar na obtenção da máxima
+                        produtividade e lucratividade para nossos
+                        clientes, através da manutenção planejada
+                        e na melhoria de seus equipamentos e
+                        instalações.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1VsIyRyQyjClBu7WkexeFzVUYfvdUGwhd/view?usp=share_link" target="_blank">
+                        <button class="cv_button">Apresentação Comercial</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button">Contato</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/company/jf-manutenção/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre Nós -->
+        <section class="historia" id="historia">
+            <h1>Sobre Nós</h1>
+
+            <div class="container_content-historia">
+                <div class="container_texto-historia">
+                    <span class="title_historia">JF Manutenções</span>
+                    <span class="texto_historia">A JF Manutenção Industrial, desde de sua fundação, vem construindo uma imagem de solidez e competência em suas áreas de atuação, oferecendo serviços de Manutenção/Fabricações Industriais, Manutenção Mecânica e Elétrica, Montagens Industriais e Grandes Paradas Programadas de Manutenção. Garantindo a integridade das instalações e também dos equipamentos, buscando a excelência e contribuindo com o desenvolvimento de sua empresa.
+                        
+                        Oferecemos mão de obra capacitada, locação de equipamentos e soluções para sua empresa. Ao longo de sua história, a JF Manutenção Industrial, já realizou diversas parcerias e obras dentre os segmentos: Cimenteiro, Mineração, Papel e Celulose, Sucroalcoleiro, Alimentos, Óleo e Gás, Químico e demais.</span>
+                </div>
+    
+                <picture class="container_image-historia" data-aos="fade-right">
+                    <img class="image_historia" src="./assets/images/Logo2.png" alt="Logo JF">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1>Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-html.png" alt="Icono de HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-css.png" alt="Icono de CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-js.png" alt="Icono de JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-python.png" alt="Icono de Python">
+                    <p>Python</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-tailwind.png" alt="Icono de Tailwind">
+                    <p>Tailwind</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-git.png" alt="Icono de Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-github-hab.png" alt="Icono de GitHub">
+                    <p>Github</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-trello.png" alt="Icono de Trello">
+                    <p>Trello</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1>Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/logo-unal.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p>Estadística</p>
+                        <p>2019 - En curso</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/logo-one.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p>Full-Stack Developer</p>
+                        <p>2022 - En curso</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/sena-logo.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p>Contabilización de Operaciones Comerciales y Financieras</p>
+                        <p>2017 - 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Obras -->
+        <section class="proyectos" id="proyectos">
+            <h1>Projetos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/ObrasEx.PNG" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est asperiores assumenda magnam consectetur, exercitationem voluptas animi, corrupti incidunt reiciendis labore ut maxime alias? Saepe ea ratione libero dignissimos laudantium.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/Juego-del-Ahorcado" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/ObrasEx.PNG" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit libero animi excepturi, ipsum placeat velit veritatis ipsa qui laudantium atque esse illum minus tenetur laboriosam ullam dolorum maiores perspiciatis ipsam?</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="#" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/portafolio" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/ObrasEx.PNG" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In accusamus dicta, officiis quibusdam ratione quas cumque tenetur, ullam assumenda magnam veniam dignissimos minus ut ab perferendis possimus ipsa harum soluta!</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://mariasmoun.github.io/Encriptador-de-texto/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/Encriptador-de-texto" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- contato -->
+        <section class="contato" id="contato">
+            <h1>contato</h1>
+
+            <div class="container_box--contato" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contato">
+                    <div class="container_text--contato">
+                        <p>Preencha o seguinte formulário e entraremos em contato com você o mais breve possível.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contato-portafolio" netlify>
+                        <input id="nome" type="text" name="name" placeholder="Nome" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto" required>
+                        <textarea id="mensagem" cols="20" rows="4" name="message" placeholder="Mensagem" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="link_home">
+                <a href="#home">Mariana Arias</a>
+            </div>
+
+            <div class="container_links--footer">
+                <a class="link-nav" href="#home">Home</a>
+                <a class="link-nav" href="#historia">Sobre Nós</a>
+                <a class="link-nav" href="#habilidades">Galeria</a>
+                <a class="link-nav" href="#formacion">Formación</a>
+                <a class="link-nav" href="#proyectos">Proyectos</a>
+                <a class="link-nav" href="#contato">Contato</a>
+            </div>
+
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/mariana-arias-montoya-b37a311a7/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/mariasmoUN" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Eric Dellai Ca</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archive Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./script.js"></script>
+</body>
 </html>
