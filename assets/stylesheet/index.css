@@ -313,7 +313,7 @@ span+span {
     color: var(--beaver);
     background-color: var(--jet);
     width: 100%;
-    animation: typing 3.5s steps(28) alternate infinite;
+    animation: typing 4.5s steps(200) alternate infinite;
 }
 
 @keyframes typing {
