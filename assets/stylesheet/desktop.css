@@ -256,13 +256,13 @@ div.btn {
     transform: scale(1.1);
 }
 
-/* Proyectos */
+/* Projetos */
 
-.proyectos h1 {
+.projetos h1 {
     padding-top: 8rem;
 }
 
-.puntos1-proyectos {
+.puntos1-projetos {
     display: inline;
     position: absolute;
     width: 6rem;
@@ -270,19 +270,19 @@ div.btn {
     background-attachment: fixed;
 }
 
-.puntos2-proyectos {
+.puntos2-projetos {
     display: inline;
     position: absolute;
     width: 6rem;
     margin: -3rem 0 0 93%;
 }
 
-.cards_container--proyectos {
+.cards_container--projetos {
     flex-direction: row;
     justify-content: center;
 }
 
-.cards--proyectos {
+.cards--projetos {
     width: 40rem;
     height: 40rem;
     display: flex;
