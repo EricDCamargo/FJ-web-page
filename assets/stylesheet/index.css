@@ -330,14 +330,14 @@ span+span {
     background-color: var(--beaver);
     border-radius: 3rem;
     padding: .5rem 2rem;
-    color: var(--jet);
+    color:var(--jet);
     font-family: 'Cooper Hewitt';
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin: 2rem 0;
     border: none;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .contact_button {
